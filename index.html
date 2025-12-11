@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Royal Gold Hotel - 5-Star Luxury | Rooms, Dining & Full-Service Spa</title>
+    
+    <meta name="description" content="Experience elevated elegance at Royal Gold Hotel. Book 5-star luxury rooms, enjoy gourmet dining at The Royal Grill, and relax at our rooftop infinity pool.">
+    
+    <meta name="keywords" content="Royal Gold Hotel, 5-star hotel, luxury hotel, city hotel, gourmet dining, rooftop pool, hotel rooms, metropolitan city hotel, Nigeria hotel, hotel">
+    
+    <meta name="author" content="Royal Gold Hotel Team">
+    
+    <meta property="og:type" content="website">
+    
+    <meta property="og:url" content="https://www.yourhoteldummyurl.com/">
+    
+    <meta property="og:title" content="Royal Gold Hotel - 5-Star Luxury Experience">
+    
+    <meta property="og:description" content="Book 5-star luxury rooms, enjoy gourmet dining, and relax at the Royal Gold Hotel's rooftop infinity pool.">
+    
+    <meta property="og:image" content="https://www.yourhoteldummyurl.com/Lobby.jpg">
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <meta name="twitter:title" content="Royal Gold Hotel - Book Your Luxury Stay">
+    
+    <meta name="twitter:description" content="Find the best deals on 5-star accommodation in the city. Check room availability now!">
+    
+    <meta name="twitter:image" content="https://www.yourhoteldummyurl.com/photo1.jpg">
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    
+    <header class="head">
+        <div class="header-content">
+            <h1>Royal gold hotel</h1>
+            <p>5-star luxury in the heart of the city</p>
+        </div>
+
+        <div id="menu-container">
+            <div id="icons" role="button" aria-expanded="false" aria-controls="main-nav-menu">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            
+            <nav id="main-nav-menu" aria-label="Main hotel navigation">
+                <div id="close-btn" role="button" aria-label="Close menu">✖️</div>
+                <ul id="menu">
+                    <li><a href="#"><i class="fas fa-home"></i><span>Home</span></a></li>
+                    
+                    <li><a href="#" class="scroll-link" data-target="room-types-list"><i class="fas fa-bed"></i><span>Rooms</span></a></li>
+                    
+                    <li><a href="#" class="modal-opener" data-modal-target="booking-history-view"><i class="fas fa-calendar-check"></i><span>Booking History</span></a></li>
+                    
+                    <li><a href="#gallery"><i class="fas fa-image"></i><span>Gallery</span></a></li>
+                    <li><a href="#restaurant"><i class="fas fa-utensils"></i><span>Restaurant</span></a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i><span>About</span></a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="slider header-slider" id="header-slider">
+            <div class="header-slide active" style="background-image:url('photo1.jpg')" role="img" aria-label="Hotel exterior photo 1"></div>
+            <div class="header-slide" style="background-image:url('photo2.jpg')" role="img" aria-label="Hotel lobby photo 2"></div>
+            <div class="header-slide" style="background-image:url('photo3.jpg')" role="img" aria-label="Hotel view photo 3"></div>
+        </div>
+    </header>
+    
+    <main>
+        
+        <section id="hero">
+            <div class="title">
+                <h2>Experience Pure Luxury</h2>
+                <p>Personalized service, timeless elegance — book your stay at Royal Gold Hotel.</p>
+                <div>
+                    <a class="btn scroll-link" data-target="room-types-list">View Rooms</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="room-types-list" aria-labelledby="room-selection-title">
+            <div class="room-card">
+                <h2 id="room-selection-title">Select Your Luxury Room</h2>
+                <p>Click a room name to see details and photos, or use
+            the<span> **Book Now**</span> button to proceed instantly.</p>
+                
+                <ul class="room-type-links">
+                    
+                    <li>
+                        <div class="room-link-item">
+                            <a href="#" class="room-select-btn" data-room-type="single">
+                                <i class="fas fa-bed"></i> Single Room
+                            </a>
+                            <a class="btn book-now-list modal-opener" 
+                               href="#" 
+                               data-modal-target="booking-modal" 
+                               data-room-type-target="single">
+                                Book Now
+                            </a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="room-link-item">
+                            <a href="#" class="room-select-btn" data-room-type="double">
+                                <i class="fas fa-bed"></i> Double Room
+                            </a>
+                            <a class="btn book-now-list modal-opener" 
+                               href="#" 
+                               data-modal-target="booking-modal" 
+                               data-room-type-target="double">
+                                Book Now
+                            </a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="room-link-item">
+                            <a href="#" class="room-select-btn" data-room-type="suite">
+                                <i class="fas fa-bed"></i> Deluxe Suite
+                            </a>
+                            <a class="btn book-now-list modal-opener" 
+                               href="#" 
+                               data-modal-target="booking-modal" 
+                               data-room-type-target="suite">
+                                Book Now
+                            </a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="room-link-item">
+                            <a href="#" class="room-select-btn" data-room-type="standard">
+                                <i class="fas fa-bed"></i> Standard Room
+                            </a>
+                            <a class="btn book-now-list modal-opener" 
+                               href="#" 
+                               data-modal-target="booking-modal" 
+                               data-room-type-target="standard">
+                                Book Now
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="room-link-item">
+                            <a href="#" class="room-select-btn" data-room-type="executive">
+                                <i class="fas fa-bed"></i> Executive Room
+                            </a>
+                            <a class="btn book-now-list modal-opener" 
+                               href="#" 
+                               data-modal-target="booking-modal" 
+                               data-room-type-target="executive">
+                                Book Now
+                            </a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
+        
+        <div id="room-detail-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="detail-modal-title">
+            <div class="modal-content">
+                <span id="close-detail-modal" role="button" aria-label="Close room details">&times;</span>
+                
+                <section id="room-details-view">
+                    <h2 id="detail-modal-title">Room Type Name</h2>
+                    
+                    <div class="room-info">
+                        <p>Price: <strong id="room-price-display"></strong> / Night</p>
+                        <p>Available Rooms: <span id="room-number-display"></span></p>
+                    </div>
+
+                    <div class="room-slider" id="detail-room-slider"> 
+                        <div class="room-slider-wrapper"> 
+                            <div class="room-slide">
+                                <img src="placeholder.jpg" alt="Room image placeholder">
+                            </div>
+                        </div>
+                    </div>
+
+                    <a class="btn book-now-direct modal-opener" 
+                       href="#" 
+                       data-modal-target="booking-modal" 
+                       data-room-type-target="">
+                        Book This Room Now
+                    </a>
+                </section>
+            </div>
+        </div>
+        
+        <div id="booking-history-view" class="modal" role="dialog" aria-modal="true" aria-labelledby="history-modal-title">
+            <div class="modal-content">
+                <span id="close-history-modal" role="button" aria-label="Close booking history">&times;</span>
+                
+                <section id="history-content">
+                    <h2 id="history-modal-title">Your Booking History</h2>
+                    <div id="history-list">
+                        <p class="no-bookings">You have no active or past bookings.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <div id="booking-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <div class="modal-content">
+                <span id="close-modal" role="button" aria-label="Close booking form">&times;</span>
+                
+                <section id="booking-form">
+                    <div class="booking-container">
+                        <h2 id="modal-title">Finalize Your Booking</h2>
+                        <form id="main-booking-form" action="https://formspree.io/f/xanrjlje" method="POST" accept-charset="utf-8">
+                            
+                            <input type="hidden" name="room_type_selected" id="form-room-type" value="">
+                            <input type="hidden" name="room_price" id="form-room-price" value="">
+
+                            <p>You are booking: <strong id="room-type-info"></strong></p>
+                            
+                            <label for="full-name">Full Name</label>
+                            <input type="text" name="full_name" id="full-name" placeholder="Enter your full name" required>
+                            
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+                            
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+                            
+                            <label for="check-in">Check-in Date</label>
+                            <input type="date" name="check_in" id="check-in" required>
+                            
+                            <label for="check-out">Check-out Date</label>
+                            <input type="date" name="check_out" id="check-out-date" required>
+                            
+                            <label for="number">Number of Guests</label>
+                            <input type="number" name="guests" id="number" placeholder="Number of guests" min="1" required>
+                            
+                            <label for="requests">Special Requests</label>
+                            <textarea name="requests" id="requests" cols="23" rows="5" placeholder="Special requests"></textarea>
+                            
+                            <button type="submit">Complete Booking & Pay</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div id="confirmation-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="confirmation-title">
+            <div class="modal-content">
+                <span id="close-confirmation-modal" role="button" aria-label="Close confirmation message">&times;</span>
+                
+                <section id="confirmation-content">
+                    <h2 id="confirmation-title">Booking Confirmation</h2>
+                    
+                    <div id="confirmation-message-display">
+                        <p>Retrieving booking details...</p>
+                    </div> 
+                    
+                    <button class="btn" id="confirmation-ok-btn">OK</button>
+                </section>
+            </div>
+        </div>
+
+<section id="gallery" class="animate-on-scroll">
+    <div class="title">
+        <h2>Photo Gallery</h2>
+        <p>A glimpse into the elegance of Royal Gold Hotel.</p>
+    </div>
+    
+    <div class="gallery-grid">
+        
+        <div class="gallery-item dining-feature-card animate-on-scroll" data-src="Lobby.jpg" data-title="The Grand Lobby">
+            <div class="feature-image-container">
+                <img src="Lobby.jpg" alt="Luxurious Hotel Lobby">
+            </div>
+            <div class="card-content-overlay">
+                <div class="card-icon">
+                    <span style="font-size: 48px; color: #ffc107;">&#x1F374;&#x1F52A;</span>
+                </div>
+                <h2>THE GRAND LOBBY</h2>
+                <p>A spacious and opulent welcome area designed for comfort and class.</p>
+                <button class="view-image-btn menu-button">
+                    VIEW SAMPLE
+                </button>
+            </div>
+        </div>
+        
+        <div class="gallery-item dining-feature-card animate-on-scroll" style="animation-delay: 0.1s;" data-src="pool.jpg" data-title="Infinity Pool & Terrace">
+            <div class="feature-image-container">
+                <img src="pool.jpg" alt="Rooftop Infinity Pool">
+            </div>
+            <div class="card-content-overlay">
+                <div class="card-icon">
+                    <span style="font-size: 48px; color: #ffc107;">&#x26F5;&#xFE0F;</span> </div>
+                <h2>ROOFTOP POOL</h2>
+                <p>Enjoy breathtaking city views from our luxurious rooftop infinity pool.</p>
+                <button class="view-image-btn menu-button">
+                    VIEW SAMPLE
+                </button>
+            </div>
+        </div>
+        
+        <div class="gallery-item dining-feature-card animate-on-scroll" style="animation-delay: 0.2s;" data-src="Fine.jpg" data-title="Fine Dining Experience">
+            <div class="feature-image-container">
+                <img src="Fine.jpg" alt="Fine Dining Restaurant">
+            </div>
+            <div class="card-content-overlay">
+                <div class="card-icon">
+                    <span style="font-size: 48px; color: #ffc107;">&#x1F37D;&#xFE0F;</span> </div>
+                <h2>GOURMET DINING</h2>
+                <p>Experience our signature dishes crafted by world-class chefs.</p>
+                <button class="view-image-btn menu-button">
+                    VIEW SAMPLE MENU
+                </button>
+            </div>
+        </div>
+        
+        <div class="gallery-item dining-feature-card animate-on-scroll" style="animation-delay: 0.3s;" data-src="bath.jpg" data-title="Deluxe Suite Bathroom">
+            <div class="feature-image-container">
+                <img src="bath.jpg" alt="Deluxe Suite Bathroom">
+            </div>
+            <div class="card-content-overlay">
+                <div class="card-icon">
+                    <span style="font-size: 48px; color: #ffc107;">&#x1F6C1;</span> </div>
+                <h2>SUITE BATHROOM</h2>
+                <p>Modern design with luxurious amenities and spacious vanity areas.</p>
+                <button class="view-image-btn menu-button">
+                    VIEW SAMPLE
+                </button>
+            </div>
+        </div>
+        
+        <div class="gallery-item dining-feature-card animate-on-scroll" style="animation-delay: 0.4s;" data-src="art.jpg" data-title="State-of-the-Art Gym">
+            <div class="feature-image-container">
+                <img src="art.jpg" alt="Modern Fitness Center">
+            </div>
+            <div class="card-content-overlay">
+                <div class="card-icon">
+                    <span style="font-size: 48px; color: #ffc107;">&#x1F4AA;</span> </div>
+                <h2>FITNESS CENTER</h2>
+                <p>State-of-the-art equipment for all your workout needs.</p>
+                <button class="view-image-btn menu-button">
+                    VIEW SAMPLE
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="restaurant" class="animate-on-scroll">
+    <div class="title">
+        <h2>The Royal Grill Restaurant</h2>
+        <p>A culinary journey of local flavors and international favorites.</p>
+    </div>
+    
+    <div class="restaurant-content-container">
+        
+        <div class="restaurant-feature dining-zoom-card animate-on-scroll" 
+             style="animation-delay: 0.1s;" 
+             data-src="Dish1.jpg" 
+             data-title="Signature Dish">
+             
+            <div class="feature-image-container">
+                <img src="/Dining.jpg" alt="Signature Dish">
+            </div>
+            
+            <div class="card-content-overlay">
+                <i class="fas fa-utensils"></i>
+                <h3>Gourmet Dining</h3>
+                <p>Experience our signature dishes crafted by world-class chefs using the freshest ingredients.</p>
+                <a href="#" class="btn view-content-btn">View Sample Menu</a>
+            </div>
+        </div>
+        
+        <div class="restaurant-feature dining-zoom-card animate-on-scroll" 
+             style="animation-delay: 0.3s;" 
+             data-src="atmosphere.jpg" 
+             data-title="Restaurant Interior">
+             
+            <div class="feature-image-container">
+                <img src="/atmosphere.jpg" alt="Restaurant Interior">
+            </div>
+            
+            <div class="card-content-overlay">
+                <i class="fas fa-wine-glass-alt"></i>
+                <h3>Elegant Atmosphere</h3>
+                <p>Perfect for a romantic dinner or a formal business lunch, offering stunning city views.</p>
+                <a href="#" class="btn view-content-btn">View Atmosphere</a>
+            </div>
+        </div>
+        
+        <div class="restaurant-feature dining-zoom-card animate-on-scroll" 
+             style="animation-delay: 0.5s;"
+             data-src="/atmosphere.jpg" 
+             data-title="Reservation Desk">
+             
+            <div class="feature-image-container">
+                <img src="/atmosphere.jpg" alt="Reservation Desk">
+            </div>
+            
+            <div class="card-content-overlay">
+                <i class="fas fa-clock"></i>
+                <h3>Hours & Reservations</h3>
+                <p>Open daily from 6 PM to 10 PM. Reservations are highly recommended for dinner service.</p>
+                <a href="#" class="btn view-content-btn">View Reservation Area</a>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<section id="about" class="animate-on-scroll">
+    <div class="title">
+        <h2>About The Royal Gold Hotel</h2>
+        <p>Experience Elevated Elegance and Gold-Standard Hospitality.</p>
+    </div>
+    
+    <div class="about-content-grid">
+        <div class="about-vision animate-on-scroll" style="animation-delay: 0.1s;">
+            <h3>Our Vision</h3>
+            <p>The Royal Gold Hotel was founded on the principle of delivering **gold-standard hospitality**—a promise of exceptional quality, attention to detail, and genuine care for every guest. Our goal is to transform every stay into a memorable event, whether you are visiting for business, leisure, or a special occasion.</p>
+        </div>
+        
+        <div class="about-feature animate-on-scroll" style="animation-delay: 0.3s;">
+            <i class="fas fa-bed"></i>
+            <h3>Luxurious Accommodations</h3>
+            <p>From the moment you step into The Grand Lobby, you are surrounded by architectural beauty. Our deluxe suites are designed as private sanctuaries, featuring high-end furnishings and spacious layouts, including luxurious ensuite bathrooms designed for ultimate relaxation.</p>
+        </div>
+        
+        <div class="about-feature animate-on-scroll" style="animation-delay: 0.5s;">
+            <i class="fas fa-dumbbell"></i>
+            <h3>State-of-the-Art Wellness</h3>
+            <p>Your health and relaxation are paramount. Maintain your routine in our **State-of-the-Art Gym** and unwind at the dazzling **Rooftop Infinity Pool & Terrace**, which offers breathtaking panoramic city views.</p>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="animate-on-scroll">
+    <div class="title">
+        <h2>Contact & Reservations</h2>
+        <p>We are ready to assist you 24 hours a day, 7 days a week.</p>
+    </div>
+    
+    <div class="contact-content-grid">
+        
+        <div class="contact-info animate-on-scroll" style="animation-delay: 0.1s;">
+            <h3>Our Location</h3>
+            <div class="info-block">
+                <i class="fas fa-map-marker-alt"></i>
+                <p><strong>Royal Gold Hotel Headquarters</strong><br>1400 Luxury Blvd, Metropolitan City, New York 10001, USA</p>
+            </div>
+            
+            <div class="info-block">
+                <i class="fas fa-phone"></i>
+                <p><strong>Reservations:</strong> +1 (555) 123-4567<br><strong>General Inquiries:</strong> +1 (555) 987-6543</p>
+            </div>
+            
+            <div class="info-block">
+                <i class="fas fa-envelope"></i>
+                <p>reservations@royalgold.com<br>info@royalgold.com</p>
+            </div>
+
+            <div class="map-placeholder">
+                
+                <p class="map-text">See location on map</p>
+            </div>
+        </div>
+        
+        <div class="contact-form-wrapper animate-on-scroll" style="animation-delay: 0.3s;">
+             <h3>Send Us A Message</h3>
+             <form id="contact-us-form" action="https://formspree.io/f/yourformid" method="POST" accept-charset="utf-8">
+                
+                <label for="c-full-name">Full Name</label>
+                <input type="text" name="full_name" id="c-full-name" placeholder="Enter your full name" required>
+                
+                <label for="c-email">Email Address</label>
+                <input type="email" name="email" id="c-email" placeholder="Enter your email address" required>
+                
+                <label for="c-subject">Subject</label>
+                <input type="text" name="subject" id="c-subject" placeholder="e.g., General Inquiry, Partnership" required>
+                
+                <label for="c-message">Your Message</label>
+                <textarea name="message" id="c-message" cols="23" rows="6" placeholder="Type your message here..." required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+        
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <div class="footer-grid">
+        
+        <div class="footer-brand">
+            <h3>Royal Gold Hotel</h3>
+            <p>5-star luxury in the heart of the city.</p>
+            <div class="footer-legal">
+                &copy; 2025 Royal Gold Hotel. All rights reserved.
+            </div>
+        </div>
+        
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#about" class="scroll-link">About Us</a></li>
+                <li><a href="#room-types-list" class="scroll-link">Our Rooms</a></li>
+                <li><a href="#restaurant" class="scroll-link">Dining</a></li>
+                <li><a href="#gallery" class="scroll-link">Photo Gallery</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-contact">
+            <h4>Contact Us</h4>
+            <p><i class="fas fa-map-marker-alt"></i> 1400 Luxury Blvd, Metropolitan City</p>
+            <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> info@royalgold.com</p>
+        </div>
+
+        <div class="footer-social">
+            <h4>Connect</h4>
+            <div class="social-icons">
+                <a href="#" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Check our reviews on TripAdvisor"><i classfab fa-tripadvisor></i></a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+    
+<script src="script.js"></script>
+</body>
+</html>
