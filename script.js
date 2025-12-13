@@ -590,15 +590,21 @@ zoomCards.forEach(card => {
             }
         });
     }
-
-    // Listener to HIDE IMAGE (Zoom Out) when the zoomed image area is clicked
-    // We attach the listener to the image container after the zoom, 
-    // or simply attach it to the whole card element to toggle.
+    
     card.addEventListener('click', (e) => {
-         // Only toggle if the target isn't the button (which is handled above)
          if (!e.target.closest('.view-content-btn')) {
              card.classList.toggle('active');
          }
     });
 
+});
+
+AOS.init({
+    offset: 120, 
+    delay: 0, 
+    duration: 1000,
+    easing: 'ease',
+    once: true, 
+    mirror: false,
+    anchorPlacement: 'top-bottom',
 });
