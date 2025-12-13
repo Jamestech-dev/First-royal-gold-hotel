@@ -558,18 +558,6 @@ featureCards.forEach(card => {
 
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
 // --- RESTAURANT IN-PLACE ZOOM SCRIPT ---
 const zoomCards = document.querySelectorAll('.dining-zoom-card');
 
